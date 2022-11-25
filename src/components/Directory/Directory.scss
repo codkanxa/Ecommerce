@@ -1,0 +1,114 @@
+// .container {
+//   border: 2px solid black;
+//   display: grid;
+//   place-items: center;
+//   height: 100vh;
+//   max-height: 100vh;
+//   // padding: 100px;
+//   // overflow: hidden;
+//   position: relative;
+//   background-color: rgb(247, 247, 247);
+// }
+.directory {
+  // overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(9, 100px);
+  grid-template-rows: repeat(12, 45px);
+  grid-gap: 17px;
+
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  transition: 0.3s;
+  padding: 1rem;
+  height: 100vh;
+  // border: 2px solid black;
+}
+
+@media (max-width: 1200px) {
+  .directory {
+    grid-template-columns: repeat(9, 95px);
+    grid-template-rows: repeat(12, 45px);
+  }
+}
+@media (max-width: 1200px) {
+  .directory {
+    grid-template-columns: repeat(9, 95px);
+    grid-template-rows: repeat(12, 45px);
+  }
+}
+@media (max-width: 1080px) {
+  .directory {
+    grid-template-columns: repeat(9, 90px);
+    grid-template-rows: repeat(12, 40px);
+  }
+}
+@media (max-width: 1024px) {
+  .directory {
+    grid-template-columns: repeat(9, 85px);
+    grid-template-rows: repeat(12, 30px);
+  }
+}
+@media (max-width: 920px) {
+  .directory {
+    grid-template-columns: repeat(9, 70px);
+  }
+}
+@media (max-width: 800px) {
+  .directory {
+    grid-template-columns: repeat(9, 55px);
+  }
+}
+@media (max-width: 700px) {
+  .directory {
+    grid-template-columns: repeat(9, 50px);
+  }
+}
+@media (max-width: 600px) {
+  .directory {
+    grid-template-columns: repeat(9, 45px);
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 570px) {
+  .directory {
+    grid-template-columns: repeat(9, 38px);
+  }
+}
+@media (max-width: 500px) {
+  .directory {
+    grid-template-columns: repeat(9, 35px);
+  }
+}
+@media (max-width: 500px) {
+  .directory {
+    grid-template-columns: repeat(9, 35px);
+  }
+}
+@media (max-width: 500px) {
+  .directory {
+    grid-template-columns: repeat(9, 35px);
+  }
+}
+@media screen and (max-width: 470px) {
+  .directory {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    // height: 100vh;
+    overflow-y: scroll;
+  }
+}
+@media (max-width: 400px) {
+  .directory {
+    // grid-template-columns: repeat(9, 23px);
+  }
+}
+@media (max-width: 370px) {
+  .directory {
+    // grid-template-columns: repeat(9, 20px);
+  }
+}
